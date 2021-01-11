@@ -116,7 +116,7 @@ def add_task_view(request):
 
 @csrf_exempt
 @api_view(['POST', ])
-#@permission_classes([IsAuthenticated & IsAdminUser])
+@permission_classes([IsAuthenticated & IsAdminUser])
 def review_task_view(request):
     """
     Function to review task sheet
@@ -180,7 +180,7 @@ def review_task_view(request):
     return JsonResponse(response_data, json_dumps_params=JSON_PARAMS)
 
 
-#@permission_classes([IsAuthenticated & IsAdminUser])
+@permission_classes([IsAuthenticated & IsAdminUser])
 class FetchAllTasks(ListAPIView):
     queryset = TaskSheet.objects.all().order_by("id")
     pagination_class = PageNumberPagination
