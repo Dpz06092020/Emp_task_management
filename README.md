@@ -13,6 +13,7 @@ Rawdata Test:
 </br></br>/api/v1/tasks/reviewTask
 </br></br>/api/v1/tasks/fetchAll
 
+</br></br>**Requirements**
 </br></br>django==3.0
 </br>djangorestframework==3.11.1
 </br>djangorestframework_simplejwt==4.4.0
@@ -29,5 +30,4 @@ Clone the application(master branch)
 </br></br>Apply styles to django ui(python manage.py collectstatic, (optional) )
 </br></br>To run the application (python manage.py runserver)
 </br></br>**Note:**
-
-</br></br>Logger and config files are added
+</br>Logger and config files are added
