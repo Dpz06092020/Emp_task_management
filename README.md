@@ -1,10 +1,10 @@
 Rawdata Test:
 
-</br></br>Dated: 11-01-2021
+</br>Dated: 11-01-2021
 
-</br></br>Author: Deepa G Pillai
+</br>Author: Deepa G Pillai
 
-**Api's to used:**
+</br></br>**Api's to used:**
 
 </br></br>/api/v1/auth/register
 </br></br>/api/v1/auth/login
@@ -13,9 +13,9 @@ Rawdata Test:
 </br></br>/api/v1/tasks/reviewTask
 </br></br>/api/v1/tasks/fetchAll
 
-django==3.0
-djangorestframework==3.11.1
-djangorestframework_simplejwt==4.4.0
+</br></br>django==3.0
+</br>djangorestframework==3.11.1
+</br>djangorestframework_simplejwt==4.4.0
 
 </br></br>**Note to use application:**
 
